@@ -1,7 +1,7 @@
 ## hsdM BLAST Scanner
 
 ### Overview
-This tool scans genome assembly FASTA files to detect **hsdM gene sequences** using **BLASTN**. A pre-built BLAST database (`hsdM_db`) is provided for faster searches.
+This tool scans genome assembly FASTA files to detect **hsdM gene sequences** using **BLASTN**. A pre-built BLAST database (`hsdM_db`) created using the hsdM gene sequences extracted from the Restriction Enzyme dataBASE (Roberts, R.J., Vincze, T., Posfai, J., Macelis, D. REBASE: a database for DNA restriction and modification: enzymes, genes and genomes. Nucleic Acids Res. 51: D629-D630 (2023). doi: 10.1093/nar/gkac975) is provided for faster searches on entire genome irrespective of its size!
 
 ### Installation
 #### Prerequisites:
