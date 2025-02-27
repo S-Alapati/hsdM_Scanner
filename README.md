@@ -15,7 +15,7 @@ This tool scans genome assembly FASTA files to detect **hsdM gene sequences** us
 ### Downloading hsdM Data
 To obtain the latest **hsdM gene sequences** from REBASE FTP, use:
 ```bash
-wget ftp://ftp.neb.com/pub/rebase/hsdM.txt -O hsdM_sequences.txt
+wget ftp://ftp.neb.com/pub/rebase/All_Type_I_M_subunit_genes_DNA.txt -O hsdM_sequences.txt
 ```
 
 ### Usage
