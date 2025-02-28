@@ -44,7 +44,13 @@ scan_hsdM_in_assembly("assembly.fasta", blastdb="hsdM_db")
 *.log
 *.csv
 ```
+---
 
+## **License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
 
 #### **requirements.txt**
 ```
