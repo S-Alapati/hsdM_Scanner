@@ -17,11 +17,11 @@ To obtain the latest **hsdM gene sequences** from REBASE FTP, use:
 ```bash
 wget ftp://ftp.neb.com/pub/rebase/All_Type_I_M_subunit_genes_DNA.txt -O hsdM_sequences.txt
 ```
-**BLAST Database Files**
+### BLAST Database Files
 This project requires the following BLAST database files for usage with blastn or blastdbcmd.
 
 ✅ Essential BLAST Database Files
-hsdM_db.nsq → Contains nucleotide sequence data
+hsdM_db.nsq.gz → Contains nucleotide sequence data (Please extrcat before utilising)
 hsdM_db.nhr → Contains BLAST database index
 hsdM_db.nin → Contains BLAST index file
 
