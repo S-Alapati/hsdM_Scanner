@@ -6,4 +6,4 @@ Date: Feb 28, 2025  10:46 AM	Longest sequence: 6,882 bases
 BLASTDB Version: 5
 
 Volumes:
-	/uoa/home/s02sa3/Desktop/Blastdb/hsdM_db
+	/Blastdb/hsdM_db
