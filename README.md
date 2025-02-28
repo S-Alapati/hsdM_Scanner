@@ -44,13 +44,6 @@ scan_hsdM_in_assembly("assembly.fasta", blastdb="hsdM_db")
 *.log
 *.csv
 ```
----
-
-## **License**
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
 
 #### **requirements.txt**
 ```
@@ -62,4 +55,4 @@ pandas
 Pull requests are welcome!
 
 ### License
-MIT License © 2025 Susanth & Karolin Hijazi
+This project is licensed under the MIT License. See the LICENSE file for details. MIT License © 2025 Susanth & Karolin Hijazi
