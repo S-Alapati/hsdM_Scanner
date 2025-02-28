@@ -55,4 +55,4 @@ pandas
 Pull requests are welcome!
 
 ### License
-This project is licensed under the MIT License. See the LICENSE file for details. MIT License © 2025 Susanth & Karolin Hijazi
+This project is licensed under the MIT License. See the LICENSE file for details. MIT License © 2025 Susanth Alapati (Clinical Research Fellow) & Karolin Hijazi (Preliminary Investigator) at University of Aberdeen.
