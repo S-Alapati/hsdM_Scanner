@@ -3,6 +3,13 @@
 ### Overview
 This tool scans genome assembly FASTA files to detect **hsdM gene sequences** using **BLASTN**. A pre-built BLAST database (`hsdM_db`) created using the hsdM gene sequences extracted from the Restriction Enzyme dataBASE (Roberts, R.J., Vincze, T., Posfai, J., Macelis, D. REBASE: a database for DNA restriction and modification: enzymes, genes and genomes. Nucleic Acids Res. 51: D629-D630 (2023). doi: 10.1093/nar/gkac975) is provided for faster searches on entire genome irrespective of its size!
 
+### Description
+The hsdM BLAST Scanner is a powerful tool designed to help researchers detect hsdM gene sequences in genome assembly FASTA files. By leveraging the BLASTN algorithm, this tool compares the input genomes against a pre-built BLAST database of hsdM gene sequences for efficient and accurate sequence identification.
+
+Ideal for genomic studies focused on the hsdM gene in prokaryotic genomes, the scanner supports multi-threading for fast searches on large datasets and provides customizable filters for sequence identity and coverage. Output is generated both as console reports for top matches and detailed results stored in a CSV file for further analysis.
+
+This tool is essential for anyone working on hsdM gene detection and provides an easy-to-use, reliable solution for integrating genomic data analysis into research workflows.
+
 ### Installation
 #### Prerequisites:
 - Python (≥3.7)
@@ -20,10 +27,12 @@ wget ftp://ftp.neb.com/pub/rebase/All_Type_I_M_subunit_genes_DNA.txt -O hsdM_seq
 ### BLAST Database Files
 This project requires the following BLAST database files for usage with blastn or blastdbcmd.
 
-✅ Essential BLAST Database Files
+```
 hsdM_db.nsq.gz → Contains nucleotide sequence data (Please extrcat before utilising)
 hsdM_db.nhr → Contains BLAST database index
 hsdM_db.nin → Contains BLAST index file
+```
+
 
 ### Usage
 
